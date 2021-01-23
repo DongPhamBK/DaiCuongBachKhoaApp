@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.daicuongbachkhoa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".OfflineFirebase"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".student.physicsonestudent.tasksphysicsonestudent.GetTasksPhysicsOneStudent"></activity>
+        <activity android:name=".student.physicsonestudent.tasksphysicsonestudent.TasksPhysicsOneStudent" />
+        <activity android:name=".teacher.physicsoneteacher.tasksphysicsoneteacher.CreateTasksPhysicsOneTeacher" />
+        <activity android:name=".teacher.physicsoneteacher.tasksphysicsoneteacher.TasksPhysicsOneTeacher" />
+        <activity android:name=".teacher.physicsoneteacher.NotificationPhysicsOneTeacher" />
+        <activity android:name=".student.Subject" />
+        <activity android:name=".news.ReadNews" />
+        <activity android:name=".news.ListNews" />
+        <activity android:name=".landingpage.Notification" />
+        <activity android:name=".landingpage.LandingPage" />
+        <activity android:name=".student.physicsonestudent.ExperimentPhysicsOneStudent" />
+        <activity android:name=".student.physicsonestudent.theoryphysicsonestudent.ListChapterPhysicsOneStudent" />
+        <activity android:name=".student.physicsonestudent.statisticsphysicsonestudent.StatisticsPhysicsOneStudent" />
+        <activity android:name=".teacher.physicsoneteacher.examphysicsoneteacher.ExamPhysicsOneTeacher" />
+        <activity android:name=".teacher.physicsoneteacher.examphysicsoneteacher.ListExamPhysicsOneTeacher" />
+        <activity android:name=".student.physicsonestudent.examphysicsonestudent.ResultExamPhysicsOneStudent" />
+        <activity android:name=".student.physicsonestudent.examphysicsonestudent.ListExamPhysicsOneStudent" />
+        <activity android:name=".student.physicsonestudent.examphysicsonestudent.ExamPhysicsOneStudent" />
+        <activity android:name=".student.physicsonestudent.quizphysicsonestudent.MenuQuizPhysicsOne" />
+        <activity android:name=".student.physicsonestudent.quizphysicsonestudent.QuizPhysicsOne" />
+        <activity android:name=".student.physicsonestudent.theoryphysicsonestudent.TheoryPhysicsOneStudent" />
+        <activity android:name=".student.lawstudent.OutlineLaw" />
+        <activity android:name=".student.lawstudent.OptionLawStudent" />
+        <activity android:name=".student.algebrastudent.OutlineAlgebra" />
+        <activity android:name=".student.algebrastudent.OptionAlgebraStudent" />
+        <activity android:name=".student.physicsonestudent.OutlinePhysicsOne" />
+        <activity android:name=".teacher.TeacherHelp" />
+        <activity android:name=".teacher.lawteacher.OptionLawTeacher" />
+        <activity android:name=".teacher.algebrateacher.OptionAlgebraTeacher" />
+        <activity android:name=".student.physicsonestudent.OptionPhysicsOneStudent" />
+        <activity android:name=".teacher.physicsoneteacher.OptionPhysicsOneTeacher" />
+        <activity android:name=".menubar.Target" />
+        <activity android:name=".menubar.Feedback" />
+        <activity android:name=".menubar.Author" />
+        <activity android:name=".menubar.MenuBar" />
+        <activity android:name=".student.StudentInfo" />
+        <activity android:name=".teacher.TeacherInfo" />
+        <activity android:name=".account.RegisterTeacher" />
+        <activity android:name=".account.ResetPasswordUser" />
+        <activity android:name=".account.RegisterUser" />
+        <activity android:name=".account.LoginUser" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

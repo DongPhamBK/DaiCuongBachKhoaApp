@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btnNumberExamPhysicsOneStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bk"
+        android:text="Đề"
+        android:layout_marginStart="12dp"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtNameExamPhysicsOneStudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên" />
+
+        <TextView
+            android:id="@+id/txtTeacherExamPhysicsOneStudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giáo viên" />
+
+        <TextView
+            android:id="@+id/txtDeadlineExamPhysicsOneStudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ngày hết hạn" />
+    </LinearLayout>
+
+</LinearLayout>

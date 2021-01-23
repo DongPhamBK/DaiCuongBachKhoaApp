@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1017536608308",
+    "firebase_url": "https://daicuongbachkhoa-default-rtdb.firebaseio.com",
+    "project_id": "daicuongbachkhoa",
+    "storage_bucket": "daicuongbachkhoa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017536608308:android:94d90088da0f3b47c1f261",
+        "android_client_info": {
+          "package_name": "com.project.daicuongbachkhoa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017536608308-g1uq82mmtqosurhvovh9m3aou48h206l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJjd1o-7Gt5pE-fXcsFJWBHUGWtvqymzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017536608308-g1uq82mmtqosurhvovh9m3aou48h206l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btnNumberExamPhysicsOneTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/button_bk"
+        android:text="Đề gv"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtNameExamPhysicsOneTeacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên đề" />
+
+        <TextView
+            android:id="@+id/txtTeacherExamPhysicsOneTeacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giáo viên" />
+
+        <TextView
+            android:id="@+id/txtDeadlineExamPhysicsOneTeacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hạn chót" />
+    </LinearLayout>
+</LinearLayout>

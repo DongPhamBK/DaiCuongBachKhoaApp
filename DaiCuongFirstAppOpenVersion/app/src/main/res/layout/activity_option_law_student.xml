@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main"
+    tools:context=".student.lawstudent.OptionLawStudent">
+
+  <TextView
+      android:id="@+id/textView17"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="32dp"
+      android:text="Pháp luật đại cương"
+      android:textColor="@color/colorTextStudent"
+      android:textSize="24sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/button2"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:background="@drawable/button_bk"
+      android:text="Lý thuyết"
+      android:textColor="#FFFFFF"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+  <Button
+      android:id="@+id/button6"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:background="@drawable/button_bk"
+      android:text="Đề cương"
+      android:textColor="#FFFFFF"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+  <Button
+      android:id="@+id/button20"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:background="@drawable/button_bk"
+      android:text="Thông báo"
+      android:textColor="#FFFFFF"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/button6" />
+</androidx.constraintlayout.widget.ConstraintLayout>
